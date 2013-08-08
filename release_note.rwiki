@@ -44,3 +44,53 @@ h3. 日本語
 
 不具合修正
 # 開発版 Redmine(revision 8162) で routes が変更されたことへの対応
+
+
+
+
+h2. 1.0.0
+
+Feature
+# Supports for Redmine 2.0
+# Adds German translation
+# Changes the entry page into the menu of the information category.
+# Improves the display of the premission report.
+
+---
+
+機能追加
+# Redmine 2.0 対応
+# ドイツ語のメッセージファイル追加
+# 最初に表示されるページを情報カテゴリのメニューに変更
+# 権限レポートの表示の改良
+
+
+h2. 1.0.1
+
+Feature
+* Supports for Redmine 2.0.3 (Set routing)
+
+Bugfix
+* Internal Error of this plugin setting page
+
+---
+
+機能追加
+* Redmine 2.0.3 対応 (ルーティングの設定を追加)
+
+不具合修正
+* プラグインの設定ページの Internal Error
+
+
+h2. 1.0.2
+
+Bugfix
+* The page of workflows supports Redmine 2.1
+* fixes lock icon
+
+---
+
+不具合修正
+* ワークフローの Redmine 2.1 対応
+* ロックアイコンの Redmine 2.1 対応
+

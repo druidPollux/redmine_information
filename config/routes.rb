@@ -1,3 +1,3 @@
-ActionController::Routing::Routes.draw do |map|
-  map.connect 'info/:action', :controller => 'info'
-end
+
+match '/information/:id', :to=> 'info#show', :via=>'get'
+match '/information', :to=> 'info#index', :via=>'get'
