@@ -1,4 +1,5 @@
 require 'redmine'
+require 'redmine_information'
 
 Redmine::Plugin.register :redmine_information do
   name 'Redmine Information Plugin'
@@ -14,7 +15,7 @@ Redmine::Plugin.register :redmine_information do
   setmap[:dot_cmdpath] = 'dot'
   settings(:default => setmap,
            :partial => 'settings/info_settings')
-  menu(:top_menu, :redmine_info,
+  menu(:admin_menu, :redmine_info,
        { :controller => 'info', :action => 'index'},
        :if => Proc.new { User.current.logged? })
 

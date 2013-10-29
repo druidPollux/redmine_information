@@ -1,4 +1,4 @@
-#admin-menu a.redmine_info { background-image: url(../images/user_suit.png);}
+#admin-menu a.redmine-info { background-image: url('../images/info_icon.png');}
 #admin-menu a.wiki-macros { background-image: url('../images/wiki_macros.png'); }
 #admin-menu a.rails-info { background-image: url('../images/rails_mini.png'); }
 .icon-weak { background-image: url('../images/true_weak.png'); }
